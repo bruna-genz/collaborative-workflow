@@ -4,12 +4,22 @@
         <h1 id="title">Survey Form</h1>
         <p id="desciption">This is a survey form for Microverse trials, created by Bruna and Johan.</p>
         <form id="survey-form">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email">
-            <laber for="number">Number</laber>
-            <input id="number" type="number" name="number" min="5" max="10">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name">
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+            <laber for="number" id="number-label">Number</laber>
+            <input id="number" type="number" name="number" min="5" max="10" placeholder="Enter your number">
+            <br>
+            <br>
+            <label for="current-role" id="current-role-label">Which option best describes your current role?</label>
+            <input list="current-role">
+            <datalist id="current-role">
+                <option value="Student">
+                <option value="Full Time Job">
+                <option value="Full Time Learner">
+                <option value="Other">
+              </datalist>
         </form>
     </body>
 </html>
