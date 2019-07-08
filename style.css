@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(209, 217, 224);
+    text-align: center;
+    font-size: 20px;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+label {
+    color: blue;
+  }
+
+  input[type=number] {    
+    width: 150px; 
+}
+  
